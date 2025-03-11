@@ -211,6 +211,12 @@ nav {
     float: left;
     width: 25%;
     padding: 10px;
+    
+    .slideshow-container {
+        width: 100%;
+        position: relative;
+        margin: 0%;
+        }
 }
 
 #right {
@@ -223,9 +229,48 @@ nav {
     #right {
         width: 100%;
     }
+
     #left {
         width: 100%;
+        .slideshow-container {
+            width: 30%;
+            position: relative;
+            margin: 0%;
+        }
     }
+}
+
+@media screen and (max-width: 700px) {
+    #right {
+        width: 100%;
+    }
+
+    #left {
+        width: 100%;
+        .slideshow-container {
+            width: 40%;
+            position: relative;
+            margin: 0%;
+            }
+
+}
+}
+
+
+@media screen and (max-width: 600px) {
+    #right {
+        width: 100%;
+    }
+
+    #left {
+        width: 100%;
+        .slideshow-container {
+            width: 50%;
+            position: relative;
+            margin: 0%;
+        }
+
+}
 }
 
 /* Clear floats after the columns */
@@ -240,11 +285,7 @@ nav {
 #slideshow{
     margin: 5%;
 }
-.slideshow-container {
-    max-width: 75%;
-    position: relative;
-    margin: 0%;
-}
+
 
 /* Hide the images by default */
 .mySlides {

@@ -18,7 +18,7 @@
             <div id="logo"><a href="index.html"><img src=".\Images\IMG_9418.png" alt="The sprained toostie logo with a blue tootsie roll that has been bent and broken open." style="font-family: Arial;" /></a></div>
             
             <div class="topnav">
-  <a href="index.html"><img src=".\Images\IMG_9418.png" alt="The sprained toostie logo with a blue tootsie roll that has been bent and broken open." style="font-family: Arial;" /></a>
+  <a href="index.html"><img id="logo" src=".\Images\IMG_9418.png" alt="The sprained toostie logo with a blue tootsie roll that has been bent and broken open." style="font-family: Arial;" /></a>
   <!-- Navigation links (hidden by default) -->
   <div id="myLinks">
     <a href="press.html">Press</a>
@@ -53,4 +53,15 @@
         <p style="font-weight: bold;">Contact: <a href="mailto:contact@sprainedtootsie.dev">contact@sprainedtootsie.dev</a></p>
     </div>
 </body>
+<script>
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 </html>

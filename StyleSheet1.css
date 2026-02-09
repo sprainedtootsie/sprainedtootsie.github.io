@@ -161,7 +161,7 @@ a.btn:hover, button:hover {
 .header {
     max-height: 15%;
     margin: 0 auto;
-    
+    padding: 0 20px;
     overflow: hidden;
 }
 
